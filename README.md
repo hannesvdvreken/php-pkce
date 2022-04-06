@@ -1,7 +1,7 @@
 # Proof Key for Code Exchange (PKCE) implementation for OAuth Clients
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/hannesvdvreken/php-pkce.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/php-pkce)
-[![Total Downloads](https://img.shields.io/packagist/dt/hannesvdvreken/php-pkce.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/php-pkce)
+[![Latest Stable Version](https://img.shields.io/packagist/v/d4h/php-pkce.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/php-pkce)
+[![Total Downloads](https://img.shields.io/packagist/dt/d4h/php-pkce.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/php-pkce)
 [![License](https://img.shields.io/github/license/hannesvdvreken/php-pkce?style=flat-square)](#license)
 
 Implementation of [RFC 7636](https://tools.ietf.org/html/rfc7636)
@@ -9,9 +9,9 @@ Implementation of [RFC 7636](https://tools.ietf.org/html/rfc7636)
 ## Usage
 
 ```php
-use OAuth\PKCE\generatePair;
-use OAuth\PKCE\generateChallenge;
-use OAuth\PKCE\verifyChallenge;
+use function OAuth\PKCE\generatePair;
+use function OAuth\PKCE\generateChallenge;
+use function OAuth\PKCE\verifyChallenge;
 
 // Generate a pair
 $pair = generatePair(128);
