@@ -1,0 +1,46 @@
+{
+  "name": "d4h/pkce",
+  "description": "PHP implementation of RFC7636 (Proof Key for Code Exchange by OAuth Public Clients)",
+  "license": "MIT",
+  "keywords": ["RFC7636", "PKCE", "OAuth"],
+  "authors": [
+    {
+      "name": "Hannes Van De Vreken",
+      "email": "vandevreken.hannes@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.4.0 || ^8.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.8",
+    "phpunit/phpunit": "^8.5 || ^9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "OAuth\\PKCE\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OAuth\\PKCE\\Tests\\": "tests/unit"
+    }
+  },
+  "scripts": {
+    "tests": "phpunit"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/hannesvdvreken"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
