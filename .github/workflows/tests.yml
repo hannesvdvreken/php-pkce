@@ -1,0 +1,19 @@
+jobs:
+  run:
+    strategy:
+      matrix:
+        php-versions: ['7.4', '8.0', '8.1']
+    name: PHP ${{ matrix.php-versions }} Tests
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+      - name: Check PHP Version
+        run: php -v
+      - name: Composer install
+        uses: php-actions/composer@v5
+      - name: PHP Unit tests
+        uses: php-actions/phpunit@v3

@@ -1,9 +1,6 @@
 # Proof Key for Code Exchange (PKCE) implementation for OAuth Clients
 
-[![Build Status](https://img.shields.io/travis/hannesvdvreken/php-pkce.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/php-pkce)
 [![Latest Stable Version](https://img.shields.io/packagist/v/hannesvdvreken/php-pkce.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/php-pkce)
-[![Code Quality](https://img.shields.io/scrutinizer/g/hannesvdvreken/php-pkce.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/php-pkce/)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hannesvdvreken/php-pkce.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/php-pkce/)
 [![Total Downloads](https://img.shields.io/packagist/dt/hannesvdvreken/php-pkce.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/php-pkce)
 [![License](https://img.shields.io/github/license/hannesvdvreken/php-pkce?style=flat-square)](#license)
 
